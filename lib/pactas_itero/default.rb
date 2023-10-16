@@ -2,7 +2,8 @@
 
 require "pactas_itero/response/raise_error"
 require "pactas_itero/version"
-require "faraday_middleware"
+require "faraday/rashify"
+require "faraday"
 
 module PactasItero
   # Default configuration options for {Client}
